@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-labelledby="t"><title id="t">The agent loop: the model either asks for tools, whose results go back to the model, or gives a final answer</title>
+<style>text{font-family:system-ui,sans-serif;font-size:14px;fill:#1f2937}.s{font-size:12px;fill:#4b5563}.b{fill:#fff;stroke:#374151;stroke-width:1.5}.h{fill:#eef2ff;stroke:#4338ca;stroke-width:1.5}.l{stroke:#374151;stroke-width:1.5;fill:none;marker-end:url(#a)}</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#374151"/></marker></defs>
+<rect width="760" height="300" rx="10" fill="#f9fafb"/>
+<rect class="b" x="20" y="60" width="130" height="60" rx="8"/><text x="85" y="86" text-anchor="middle" font-weight="600">User question</text><text class="s" x="85" y="105" text-anchor="middle">added to messages</text>
+<path class="l" d="M150 90H228"/>
+<rect class="h" x="230" y="55" width="150" height="70" rx="8"/><text x="305" y="85" text-anchor="middle" font-weight="600">Call the model</text><text class="s" x="305" y="105" text-anchor="middle">messages + tools</text>
+<path class="l" d="M380 90H458"/>
+<path d="M530 45L605 90L530 135L455 90Z" class="b"/><text x="530" y="86" text-anchor="middle">Tool calls</text><text x="530" y="103" text-anchor="middle">asked for?</text>
+<path class="l" d="M605 90H668"/><text class="s" x="635" y="80" text-anchor="middle">no</text>
+<rect class="b" x="670" y="60" width="72" height="60" rx="8"/><text x="706" y="86" text-anchor="middle" font-weight="600">Final</text><text x="706" y="104" text-anchor="middle" font-weight="600">answer</text>
+<path class="l" d="M530 135V198"/><text class="s" x="545" y="170">yes</text>
+<rect class="b" x="455" y="200" width="150" height="70" rx="8"/><text x="530" y="230" text-anchor="middle" font-weight="600">Run the tools</text><text class="s" x="530" y="250" text-anchor="middle">results added to messages</text>
+<path class="l" d="M455 235H305V127"/><text class="s" x="380" y="255" text-anchor="middle">next turn</text>
+</svg>

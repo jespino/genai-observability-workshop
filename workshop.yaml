@@ -1,0 +1,58 @@
+# Everything about the workshop that is not module content.
+
+title: "Observing GenAI Applications with OpenTelemetry"
+short_title: "GenAI Observability"
+description: "Learn OpenTelemetry and its GenAI semantic conventions by instrumenting a small AI agent, with metrics, logs and traces that any standard tool can read."
+
+# Where the site is published. Needed for canonical URLs and the sitemap.
+url: https://jespino.github.io/genai-observability-workshop/
+
+# Enables the repository links, and links from modules to other repository files.
+repository: https://github.com/jespino/genai-observability-workshop
+branch: main
+
+author:
+  name: "Dmytro Kozlov"
+  role: Software Engineer at VictoriaMetrics
+  bio: >-
+    Dmytro has been a Go engineer at VictoriaMetrics since 2022. Before that, Dmytro built
+    microservices in Go and front ends in React as a full-stack engineer, after an earlier
+    career in banking.
+  avatar: images/author.webp   # inside modules/images/
+  # links:
+  #   - label: GitHub
+  #     url: https://github.com/example
+
+# Label and value pairs on the landing page.
+facts:
+  - label: Format
+    value: Theory + exercises
+  - label: Duration
+    value: Half a day
+  - label: Language
+    value: Python
+  - label: You'll need
+    value: Docker, and optionally a model with an OpenAI-compatible API
+
+# The first language is the default, written in NN-name.md. The others go in
+# NN-name.<code>.md and are published under /<code>/. Anything missing falls
+# back to the default language.
+languages:
+  - code: en
+  # - code: es
+  #   title: Mi Workshop
+  #   description: Lo que aprenderán los participantes.
+
+theme:
+  name: default # `wsbuilder themes` lists the options
+  # primary: "#3f3cbb"   # these replace the theme's own colors
+  # accent: "#d9480f"
+
+# Defaults, in case your layout differs:
+# paths:
+#   modules: modules
+#   exercises: exercises
+#   images: modules/images
+#   public: public       # copied as is to the site root: CNAME, favicon.ico...
+#   theme: theme         # overrides of the theme's files, see `wsbuilder eject`
+#   output: dist
