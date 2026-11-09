@@ -17,6 +17,11 @@ If `wsbuilder` is not on the PATH, run it with
 - Keep every language and every track at parity. If you change one, change the others.
 - Keep solutions out of the starter files, which participants download.
 - Don't publish, push or change `.github/workflows/` unless the user asks.
+- This workshop offers no downloads: participants clone the repository, start the stack
+  from `stack/`, and edit the files in `exercises/`. `paths.exercises` in `workshop.yaml`
+  points at a directory that doesn't exist on purpose, so no exercise box or zip is
+  generated. Includes still use `exercises/...`. Handouts refer to files by their path in
+  the repository, never by a download.
 
 ## Layout
 
