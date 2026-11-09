@@ -34,7 +34,7 @@ cd stack && docker compose pull
 
 ## Building the site
 
-The site is built with [wsbuilder](https://github.com/jespino/workshops-framework).
+The site is built with [wsbuilder](https://github.com/jespino/wsbuilder).
 
 ```bash
 wsbuilder watch   # write with live reload
